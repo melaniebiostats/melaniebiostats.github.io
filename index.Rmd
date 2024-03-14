@@ -1,0 +1,91 @@
+---
+title: "About"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Melanie Wall
+
+<img src="images/wall_melanie_1small.jpg" style="width:30%">
+
+---------------
+
+## Professor of Biostatistics (in Psychiatry)  
+Department of Biostatistics, Mailman School of Public Health and  
+Director of Mental Health Data Science in the  
+Department of Psychiatry, Columbia University Medical Center and the  
+New York State Psychiatric Institute
+
+******
+
+I am the director of [Mental Health Data Science](https://www.columbiapsychiatry.org/mental-health-data-science) in the New York State Psychiatric Institute (NYSPI) and Columbia University psychiatry department where I oversee a team of 14 biostatisticians collaborating on predominately NIH funded research projects related to psychiatry. I have worked extensively with modeling complex multilevel and multimodal data on a wide array of psychosocial public health and psychiatric research questions in both clinical studies and large epidemiologic studies (over 450 total journal publications). My biostatistical expertise includes latent variable modeling (e.g. factor analysis, item response theory, latent class models, structural equation modeling), spatial data modeling (e.g. disease mapping), and longitudinal data analysis including the class of longitudinal models commonly called growth curve mixture models. I received a Ph.D. (1998) from the Department of Statistics at Iowa State University, and a B.S. (1993) in mathematics from Truman State University. Before moving to Columbia University in 2010, I was on faculty in Biostatistics in the School of Public Health at the University of Minnesota. **Link to my [blog](http://melaniemwall.com) about Mental Health Data Science**.
+
+* * *
+
+## Teaching
+
+### P8158
+Latent Variable and Structural Equation Modeling for Health Sciences (Columbia University Dept of Biostatistics) - [Syllabus](files/Syllabus LV and SEM in Health Sciences - 2018updated.pdf)
+
+* * *
+
+## Research
+
+My full CV is [here](https://www.columbia.edu/~mmw2177/Melanie_Wall_CV_oct_2023_signed.pdf) and below are selected research papers and statistical programs... 
+
+* Info about additive interactions
+    * Presentation on [testing for additive versus multiplicative interactions](https://www.columbia.edu/~mmw2177/Testing%20for%20additive%20interactions.pdf) with dichotomous outcomes, and a presentation [Are you looking for the right interactions?](https://www.columbia.edu/~mmw2177/interaction_psych_2.ppt) by Sharon Schwartz developing the causal theory behind why causal interactions are best represented by additivity.
+    * [SUDAAN code for testing additive interaction](https://www.columbia.edu/~mmw2177/Additive%20interaction%20in%20SUDAAN_08032016.pdf)
+* Info about suppression effects
+    * Friedman L, Wall MM. (2005) "Graphical views of suppression and multicollinearity in multiple linear regression", _The American Statistician_, vol. 59, no. 2, pp. 127 * 136. Splus program for producing graphs in this paper [here](https://www.columbia.edu/~mmw2177/SUPPRESSION/general_code_graphssuppression.htm) prepared by Lynn Friedman.
+    * Here is an [Interactive Shiny App](https://steamtraen.shinyapps.io/suppressiongraphics/) that allows you to examining suppression and multicollinearity under any scenario which just the click of a button developed by [Nick Brown](https://www.theguardian.com/science/2014/jan/19/mathematics-of-happiness-debunked-nick-brown).
+* Programs for [testing sequences of drug initiation](https://www.columbia.edu/~mmw2177/Sequences/sequence.html) in Wall MM, Cheslack-Postava K, Hu MC, Feng T, Griesler P, Kandel DB. Nonmedical prescription opioids and pathways of drug involvement in the US: Generational differences, Drug and Alcohol Dependence, 182: 103-111. 2017.
+* Programs for assessing [Total Information](https://www.columbia.edu/~mmw2177/IRT/irtprog.html) in Item Response Theory Modeling
+* Papers on latent variable models including nonlinear structural equation models
+    * Wall MM, Park JY, Moustaki I. (2015). IRT modeling in the presence of zero-inflation with applicaiton to psychiatric disorder severity. _Applied Psychological Measurement_ 39(8): 583-597.
+    * Wall, M.M., Guo, J., Amemiya, Y. (2012). Mixture factor analysis for approximating a non-normally distributed continuous latent factor with continuous and dichotomous observed variables. _Multivariate Behavioral Research_, 47:276-313. [Explanation of Mplus program for Mixture Factor Analysis](https://www.columbia.edu/~mmw2177/MixtureFA/MixtureFactorAnalysisImplementationInMplus.pdf), [Mplus .out file for Mixture Factor Model 4class result in Table 6](https://www.columbia.edu/~mmw2177/MixtureFA/progmix4cfwithonstatement.out), [Data for Numerical Example fit in Table 6](https://www.columbia.edu/~mmw2177/MixtureFA/data2.txt)
+    * Wall, M.M. and Li, Ran (2009) Multiple indicator hidden Markov model with an application to medical utilization data.  _Statistics in Medicine_, 28(2): 293-310.
+    * Guo, J. Wall, M.M., and Amemiya, Y. (2006) "Latent class regression on latent factors", _Biostatistis_, 7, 1, pp. 145-163.
+    * Wall, M.M. and Li, Ruifeng (2003) "A Comparison of Multiple Regression to Two Latent Variable Techniques for Estimation and Prediction", _Statistics in Medicine_, 22, 3671-3685. SAS programs for performing analysis in this paper [here](https://www.columbia.edu/~mmw2177/LIprogs/index.html)
+    * Nonlinear SEM Papers below and [Nonlinear SEM Programs HERE](https://www.columbia.edu/~mmw2177/NONLINEARSEM/index.html)
+        * Wall, M.M. and Amemiya, Y, (2000) "Estimation for polynomial structural equation models".  _JASA_, **95**, 929-940.
+        * Wall, M.M. and Amemiya, Y, (2001) "Generalized appended product indicator procedure for nonlinear structural equation analysis". _Journal of Educational and Behavioral Statistics_, **26**, 1-29.
+        * Wall, M.M. and Amemiya, Y, (2003) "A method of moments technique for fitting interaction effects in structural equation models", _British Journal of Mathematical and Statistical Psychology_, **56**, 47-64.
+        * Wall M.M. and Amemiya, Y. (2007) "A review of nonlinear factor analysis and nonlinear structural equation modeling" In _Factor Analysis at 100: Historical Developments and Future Directions_, eds. Robert Cudeck and Robert C. MacCallum, Chapter 16 pp 337-362, Lawrence Erlbaum Associates.
+        * Wall M.M. and Amemiya, Y. (2007) "Nonlinear structural equation modeling as a statistical method" In _Handbook of Latent Variable and related Models_, ed Sik-Yum Lee, Chapter 15, 321-344, Elsevier, The Netherlands.
+        * Wall MM (2009) Maximum likelihood and Bayesian estimation for nonlinear structural equation models, In the _Handbook of Quantitative Methods in Psychology_ eds Roger Millsap and Albert Maydeu-Olivares, Chapter 22, 540-567, Sage. 
+* Papers on spatial data modelling
+    * Wang, F., and Wall, M.M. (2003) "Generalized Common Spatial Factor Model" _Biostatistics_ 4(4), 569-582.
+    * Wang, F. and Wall, M.M. "Modelling multivariate data with a common spatial factor" Research Report No. 2001-008, Division of Biostatistics, University of Minnesota, Minneapolis, MN.
+    * Wang, F., and Wall, M.M. (2003) "Incorporating Parameter Uncertainty into Prediction Intervals for Spatial Data Modeled via a Parametric Variogram", _JABES_, 8, Vol. 3., 1-14.
+    * Banerjee, S., Wall, M.M., and Carlin, B.P. (2003) "Frailty Modeling for Spatially Correlated Survival Data, with Application to Infant Mortality in Minnesota", _Biostatistics_, 4, 123-143.
+    * Wall, M.M. (2004) "A close look at the spatial correlation structure implied by the CAR and SAR models" _Journal of Statsitical Planning and Inference_ Vol 121, 2, 311-324.
+    * Zhao, Y. and Wall, M.M. (2004) ``Investigating the use of the variogram for lattice data'' _Journal of Computational and Graphical Statistics_, 13(3) , 1-20.
+    * Liu X, Wall MM, Hodges JS (2005) "Generalized spatial structural equation modeling" _Biostatistics_, 6: 539-557.
+    * Wall MM and Liu X (2009) ``Spatial Latent Class Analysis Model for Spatially Distributed Multivariate Binary Data", _Computational Statistics and Data Analysis_, 53, 3057-3069.
+    * Wall MM (2012). Spatial structural equation modeling with an application to U.S. behavioral risk factor surveillance survey data. In the _Handbook of Structural Equation Modeling_ Chapter 39, 674-689, ed Rick Hoyle, Guilford Press.
+* Other statistical methodology papers 
+    * Wall, M.M., Boen, J. and Tweedie, R. L. (2001) "An effective CI for the mean with samples of size 1 and 2", _The American Statistician_, **55**, No. 2, 102-105.
+    * Pan, W. and Wall, M.M. (2002) "Small-Sample Adjustments in Using the Sandwich Variance Estimator in Generalized Estimating Equations" _Statistics in Medicine_, **21**, No. 10, 1429-1441.
+    * Wall, M.M. (2004) "Adjusting SIDS rates by seasonality in births in Minnesota", _Statistics in Medicine_, 23(13): 2037-2048.
+    * Wall, M.M., Dai, Y., Eberly, L.E. (2005) "GEE Estimation of a Mis-specified Time-varying Covariate in Poisson Regression with Many Observations" _Statistics in Medicine_, 24:925-939.
+
+* * *
+
+Melanie M. Wall  
+email: mmw2177@cumc.columbia.edu  
+phone: (646)774-5458  
+**Mailing address:**  
+1051 Riverside Drive  
+Unit 48  
+New York, NY 10032  
+**Physical address (and FedEx)**:  
+Allan Rosenfield Building  
+722 West 168th Street - R207  
+New York, NY 10032
+
+* * *
+
+Here's back to the [index](index.html) page.
