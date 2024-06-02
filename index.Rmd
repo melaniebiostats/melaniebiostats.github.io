@@ -15,7 +15,7 @@ output:
 ## Professor of Biostatistics (in Psychiatry)  
 Department of Biostatistics, Mailman School of Public Health and  
 Director of Mental Health Data Science in the  
-Department of Psychiatry, Columbia University Medical Center and the  
+Department of Psychiatry, Columbia University Irving Medical Center and the  
 New York State Psychiatric Institute
 
 ******
